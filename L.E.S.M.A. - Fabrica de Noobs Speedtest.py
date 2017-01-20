@@ -3,13 +3,14 @@ import time
 from time import gmtime, strftime
 
 import datetime
-i = datetime.datetime.now()
+
  
 print (" ")
 print (" ")
 num = 0
 
 while a == 0:
+    i = datetime.datetime.now()
     num += 1
     print ("Teste de número ", num)
     print ("Data e hora: = %s" % i)
